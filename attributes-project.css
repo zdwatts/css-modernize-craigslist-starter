@@ -2,6 +2,7 @@
 .homepage #go,
 .homepage .leftlinks #cl_app_beta,
 .no-js,
+
 p.more {
   display: none;
 }
@@ -31,3 +32,31 @@ p.more {
 }
 
 /* Write your CSS here. */
+
+*{
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  background-color: whitesmoke;
+  color: #464646;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  list-style: none;
+}
+
+a:hover {
+  color: #800080;
+  font-weight: bold;
+}
+
+a > span:hover {
+  color: #800080;
+  font-weight: bold;
+}
